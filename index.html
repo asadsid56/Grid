@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        padding-top: 5%;
+        font-size: 50px;
+    }
+    .container {
+        background: #eee;
+        width: auto;
+        height: 100vh;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 100px;
+        
+
+        /* row-gap: 15px;
+        column-gap: 15px; */
+        /* grid-template-rows: repeat(2,200px) 1fr; */
+        /* grid-template-columns: 20% 250px auto 1fr;
+        grid-template-rows: 200px 200px;
+        gap: 3rem; */
+        gap: 3rem;
+    }
+    .item1 {
+    background-color: orangered;
+    grid-column: 1 / span 4;
+    }
+    .item2 {
+        background-color: yellowgreen;
+        grid-row: 2 / span 7;
+        
+    }
+    .item3 {
+        background-color: mediumpurple;
+        
+    }
+    .item4 {
+        background-color: hotpink;
+    }
+    .item5 {
+        background-color: orange;
+    }
+    .item6 {
+        background-color: blue;
+        grid-row: 3 / span 4;
+        /* grid-column: 3 / span 2; */
+    }
+    .item7 {
+        background-color: yellow;
+        grid-row: 3 / span 4;
+        /* grid-column: 1 / span 3; */
+    }
+    .item8 {
+        background-color: goldenrod;
+        grid-row: 3 / span 4;
+    }
+    .item9 {
+        background-color: red;
+    }
+    .item10 {
+        background-color: green;
+    }
+    .item11 {
+        background-color: purple;
+    }
+    .item12 {
+        background-color: pink;
+    }
+    .item13 {
+        background-color: orangered;
+    }
+    .item14 {
+        background-color: blue;
+    }
+    .item15 {
+        background-color: yellow;
+    }
+    .item16 {
+        background-color: rgb(71, 216, 119);
+    }
+    .items {
+        padding: 20px;
+    }
+</style>
+<body>
+    <h1>Grid</h1>
+    <div class="container">
+        <div class="items item1">1</div>
+        <div class="items item2">2</div>
+        <div class="items item3">3</div>
+        <div class="items item4">4</div>
+        <div class="items item5">5</div>
+        <div class="items item6">6</div>
+        <div class="items item7">7</div>
+        <div class="items item8">8</div>
+        <div class="items item9">9</div>
+        <div class="items item10">10</div>
+        <div class="items item11">11</div>
+        <div class="items item12">12</div>
+        <div class="items item13">13</div>
+        <div class="items item14">14</div>
+        <div class="items item15">15</div>
+        <div class="items item16">16</div>
+
+    </div>
+</body>
+</html>
